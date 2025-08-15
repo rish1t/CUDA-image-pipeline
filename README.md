@@ -67,6 +67,17 @@ Uses standard ITU-R BT.709 luminance coefficients: `Y = 0.299R + 0.587G + 0.114B
 ### Sobel Edge Detection
 Combines horizontal and vertical gradient calculations with magnitude enhancement for robust edge detection.
 
+## Results
+
+### Processing Pipeline Visualization
+
+| Stage | Result |
+|-------|--------|
+| **Original** | ![Original](images/original.jpg) |
+| **Grayscale** | ![Grayscale](images/step1_grayscale.png) |
+| **Gaussian Blur** | ![Blur](images/step2_blur.png) |
+| **Edge Detection** | ![Edges](images/step3_edges.png) |
+
 ## Project Structure
 
 ```
